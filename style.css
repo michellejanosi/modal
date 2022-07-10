@@ -29,3 +29,11 @@ body {
   padding: 50px;
   text-align: center;
 }
+
+#open-modal, #close-modal {
+  background-color: royalblue;
+  color: whitesmoke;
+  font-size: 20px;
+  padding: 10px 19px;
+  cursor: pointer;
+}
