@@ -18,13 +18,8 @@
   - if you come from a design background, you'll know you can convert HEX values (e.g. #ffffff to rgba using a convertor)
 */
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
 body {
+  margin: 0;
   font-family: Arial, Helvetica, sans-serif;
   padding: 50px;
   text-align: center;
@@ -36,4 +31,12 @@ body {
   font-size: 20px;
   padding: 10px 19px;
   cursor: pointer;
+}
+
+#modal {
+  background-color: orange;
+  padding: 20px;
+  height: 200px;
+  margin: 0 auto;
+  max-width: 600px;
 }
